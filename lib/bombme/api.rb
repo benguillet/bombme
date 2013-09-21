@@ -5,10 +5,17 @@ module Bombme
     format :json
 
     resource :jack do
+
       desc 'Get a jack'
       get :random do
-        'lol'
+        Jack.random
       end
+
+      desc 'Get some jacks'
+      get :bomb do
+        Jack.bomb
+      end
+
     end
 
   end

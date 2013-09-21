@@ -1,3 +1,5 @@
+autoload :Jack, 'bombme/models/jack'
+
 module Bombme
   autoload :API, 'bombme/api.rb'
 
