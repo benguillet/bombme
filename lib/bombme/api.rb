@@ -19,6 +19,10 @@ module Bombme
         Jack.bomb(params[:count])
       end
 
+      desc 'How many jacks are there?'
+      get :count do
+        Jack.count
+      end
     end
 
   end

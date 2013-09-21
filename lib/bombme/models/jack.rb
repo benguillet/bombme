@@ -6,11 +6,15 @@ class Jack
   end
 
   def self.bomb(count)
-    return [] if count > @jacks.length
+    return { jacks: [] } if count > @jacks.length
 
     jacks = Set.new
     jacks << @jacks[ rand(@jacks.length) ] until jacks.length == Integer(count)
     { jacks: jacks.to_a }
+  end
+
+  def self.count
+    { jack_count: @jacks.length }
   end
 
   private
