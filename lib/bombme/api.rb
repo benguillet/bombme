@@ -12,8 +12,11 @@ module Bombme
       end
 
       desc 'Get some jacks'
+      params do
+        optional :count, type: Integer, default: 5
+      end
       get :bomb do
-        Jack.bomb
+        Jack.bomb(params[:count])
       end
 
     end
