@@ -4,4 +4,10 @@ module Bombme
   def self.logger
     @logger ||=  Logger.new(STDOUT)
   end
+
+  def self.app
+    @app ||= Rack::Builder.app do
+      run API
+    end
+  end
 end

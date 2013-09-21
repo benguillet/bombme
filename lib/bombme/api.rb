@@ -7,7 +7,7 @@ module Bombme
     resource :jack do
       desc 'Get a jack'
       get :random do
-
+        'lol'
       end
     end
 
