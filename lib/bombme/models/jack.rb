@@ -33,7 +33,6 @@ class Jack
     'https://s3.amazonaws.com/remind101-jack/jack_12.jpg',
     'https://s3.amazonaws.com/remind101-jack/jack_13.jpg',
     'https://s3.amazonaws.com/remind101-jack/jack_14.jpg',
-    'https://s3.amazonaws.com/remind101-jack/jack_15.jpg',
-    'https://s3.amazonaws.com/remind101-jack/jack_16.jpg'
+    'https://s3.amazonaws.com/remind101-jack/jack_15.jpg'
   ]
 end
