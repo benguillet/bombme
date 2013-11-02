@@ -19,20 +19,22 @@ class Jack
 
   private
   @jacks = [
-    'https://s3.amazonaws.com/remind101-jack/jack_1.png',
-    'https://s3.amazonaws.com/remind101-jack/jack_2.png',
-    'https://s3.amazonaws.com/remind101-jack/jack_3.png',
-    'https://s3.amazonaws.com/remind101-jack/jack_4.png',
-    'https://s3.amazonaws.com/remind101-jack/jack_5.png',
-    'https://s3.amazonaws.com/remind101-jack/jack_6.png',
-    'https://s3.amazonaws.com/remind101-jack/jack_7.png',
-    'https://s3.amazonaws.com/remind101-jack/jack_8.png',
+    'https://s3.amazonaws.com/remind101-jack/jack_1.jpg',
+    'https://s3.amazonaws.com/remind101-jack/jack_2.jpg',
+    'https://s3.amazonaws.com/remind101-jack/jack_3.jpg',
+    'https://s3.amazonaws.com/remind101-jack/jack_4.jpg',
+    'https://s3.amazonaws.com/remind101-jack/jack_5.jpg',
+    'https://s3.amazonaws.com/remind101-jack/jack_6.jpg',
+    'https://s3.amazonaws.com/remind101-jack/jack_7.jpg',
+    'https://s3.amazonaws.com/remind101-jack/jack_8.jpg',
     'https://s3.amazonaws.com/remind101-jack/jack_9.jpg',
     'https://s3.amazonaws.com/remind101-jack/jack_10.jpg',
     'https://s3.amazonaws.com/remind101-jack/jack_11.jpg',
     'https://s3.amazonaws.com/remind101-jack/jack_12.jpg',
     'https://s3.amazonaws.com/remind101-jack/jack_13.jpg',
     'https://s3.amazonaws.com/remind101-jack/jack_14.jpg',
-    'https://s3.amazonaws.com/remind101-jack/jack_15.jpg'
+    'https://s3.amazonaws.com/remind101-jack/jack_15.jpg',
+    'https://s3.amazonaws.com/remind101-jack/jack_16.jpg',
+    'https://s3.amazonaws.com/remind101-jack/jack_17.jpg'
   ]
 end
